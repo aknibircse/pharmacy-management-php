@@ -104,7 +104,7 @@
             <div class="col col-md-2">Medicine Name</div>
             <div class="col col-md-1">Packing</div>
             <div class="col col-md-2">Batch ID</div>
-            <div class="col col-md-1">Ex. Date (mm/yy)</div>
+            <div class="col col-md-1">Ex. Date (MM/YY)</div>
             <div class="col col-md-1">Quantity</div>
             <div class="col col-md-1">MRP</div>
             <div class="col col-md-1">Rate</div>

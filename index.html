@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>Pharmacy Management - SETUP</title>
@@ -13,6 +14,7 @@
     <script src="js/index.js"></script>
     <script> isSetupDone(); </script>
   </head>
+
   <body style="background-image: url('images/cap.jpg');">
     <div class="container">
       <div class="card m-auto p-2">
@@ -21,7 +23,7 @@
             <div class="logo">
               <h1 class="logo-caption font-weight-bolder"><span class="tweak">P</span>harmacy <span class="tweak">M</span>anagement</h1>
         			<h2 class="logo-caption font-weight-bolder"><span class="tweak">O</span>ne <span class="tweak">T</span>ime <span class="tweak">S</span>etup</h2>
-              <p class="h5 text-center text-light">Enter necessary pharmacy details<p>
+              <p class="h5 text-center text-light">Enter Necessary Pharmacy Details<p>
         		</div> <!-- logo class -->
 
             <div class="input-group form-group">
@@ -55,16 +57,6 @@
               <input id="contact_number" type="number" class="form-control" placeholder="contact number" onkeyup="validateContactNumber(this.value, 'contact_number_error');" >
             </div> <!-- input-group class -->
             <code class="text-light small font-weight-bold float-right mb-2" id="contact_number_error" style="display: none;"></code>
-            <!--
-            <div class="input-group form-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text"><i class="fa fa-user-circle text-white"></i></span>
-              </div>
-              <input type="text" class="form-control" placeholder="select profile image" onclick="document.getElementById('profile_image').click();" id="profile_name">
-              &emsp;<p class="m-auto text-light">Optional</p>
-              <input id="profile_image" type="file" accept="image/*" class="form-control" style="display: none;" onchange="document.getElementById('profile_name').value = this.value.split('\\').pop()">
-            </div> <!-- input-group class
-            -->
 
             <div class="input-group form-group">
               <div class="input-group-prepend">
@@ -94,8 +86,10 @@
               <button class="btn btn-default btn-block btn-custom">START</button>
             </div>
           </form><!-- form close -->
+
         </div> <!-- cord-body class -->
       </div> <!-- card class -->
     </div> <!-- container class -->
+
   </body>
 </html>

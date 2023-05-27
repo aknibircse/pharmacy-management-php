@@ -96,7 +96,7 @@
                         $total = $total + $row['NET_TOTAL'];
                     ?>
                     <th>Total Sales</th>
-                    <th class="text-success">Rs. <?php echo $total; ?></th>
+                    <th class="text-success">TK. <?php echo $total; ?></th>
                   </tr>
                   <tr>
                     <?php
@@ -109,7 +109,7 @@
                     }
                     ?>
                     <th>Total Purchase</th>
-                    <th class="text-danger">Rs. <?php echo $total; ?></th>
+                    <th class="text-danger">TK. <?php echo $total; ?></th>
                   </tr>
                 </tbody>
               </table>

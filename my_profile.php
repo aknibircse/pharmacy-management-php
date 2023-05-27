@@ -26,6 +26,7 @@
           createHeader('user', 'Profile', 'Manage Admin Details');
           // header section end
           require "php/db_connection.php";
+          
           if($con) {
             $query = "SELECT * FROM admin_credentials";
             $result = mysqli_query($con, $query);
